@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.Namess {
+  margin-top: 10px;
+  height: 20px;
+  width: 300px;
+}
+.Age {
+  margin-top: 10px;
+  height: 20px;
+  width: 300px;
+}
+.Type {
+  margin-top: 10px;
+  height: 20px;
+  width: 300px;
+}
+
+label {
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}
+.input {
+  background-color: cornsilk;
+  color: black;
+  padding: auto;
+  margin: auto;
+  margin-top: 10px;
+}
+.output {
+  /* background-color: lightgray; */
+  margin: auto;
+  margin-top: 20px;
+  font-size: 20px;
+  /* border: solid black; */
+}
+.submit {
+  text-align: center;
+  margin-top: 10px;
+  background-color: slategray;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+th {
+  font-weight: bold;
+}
+td {
+  text-align: center;
+}
+.data {
+  margin: auto;
+  /* border: solid black; */
+}
+#nop {
+  margin: auto;
+  text-align: center;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Team.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table class="input">
+      <tr>
+        <td colspan="2"><h1>Cricket team Maker</h1></td>
+      </tr>
+      <tr>
+        <td><label>Player_Name</label></td>
+
+        <td>
+          <input
+            type="text"
+            id="pName"
+            placeholder="Enter a Player_Name"
+            class="Namess"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Age</label>
+        </td>
+        <td>
+          <button id="+" onclick="add()" class="add">+</button>
+          <input type="number" id="Age" class="Age" />
+          <button id="-" onclick="sub()" class="sub">-</button>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="player_type">player_type:</label></td>
+        <td>
+          <input
+            type="checkbox"
+            id="Batsman"
+            name="Batsman"
+            onchange="batsman()"
+          />
+          <label for="Batsman">Batsman</label>
+          <input
+            type="checkbox"
+            id="Bowler"
+            name="Bowler"
+            onchange="bowler()"
+          />
+          <label for="Bowler"> Bowler</label>
+          <input
+            type="checkbox"
+            id="Wicket Keeper"
+            name="Wicket Keeper"
+            onchange="wk()"
+          />
+          <label for="Wicket Keeper"> Wicket Keeper</label>
+          <input
+            type="checkbox"
+            id="All Rounder"
+            name="All Rounder"
+            onchange="alround()"
+          />
+          <label for="All Rounder"> All Rounder</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button class="submit" value="Submit" onclick="submit()">
+            Add Player
+          </button>
+        </td>
+      </tr>
+    </table>
+    <div class="output">
+      <div id="nop"></div>
+      <div id="disp"></div>
+    </div>
+    <script src="Team.js"></script>
+  </body>
+</html>
